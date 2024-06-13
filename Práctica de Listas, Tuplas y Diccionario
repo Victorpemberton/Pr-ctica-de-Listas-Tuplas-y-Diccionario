@@ -1,0 +1,45 @@
+# Definición de una lista
+mi_lista = [1, 2, 3, "cuatro", [5, 6]]
+
+# Acceso a un elemento
+print(mi_lista[3])  # Salida: cuatro
+
+# Modificación de un elemento
+mi_lista[1] = "dos"
+print(mi_lista)  # Salida: [1, 'dos', 3, 'cuatro', [5, 6]]
+
+# Agregar un elemento
+mi_lista.append(7)
+print(mi_lista)  # Salida: [1, 'dos', 3, 'cuatro', [5, 6], 7]
+
+
+
+
+mi_tupla = (1, 2, 3, "cuatro", (5, 6))
+
+# Acceso a un elemento
+print(mi_tupla[3])  # Salida: cuatro
+
+# Las tuplas no se pueden modificar
+# mi_tupla[1] = "dos"  # Esto generaría un error
+
+# Las tuplas pueden contener elementos de diferentes tipos
+print(mi_tupla)  # Salida: (1, 2, 3, 'cuatro', (5, 6))
+
+
+# Definición de un diccionario
+mi_diccionario = {"nombre": "Alice", "edad": 25, "ocupación": "ingeniera"}
+
+# Acceso a un valor
+print(mi_diccionario["nombre"])  # Salida: Alice
+
+# Modificación de un valor
+mi_diccionario["edad"] = 26
+print(mi_diccionario)  # Salida: {'nombre': 'Alice', 'edad': 26, 'ocupación': 'ingeniera'}
+
+# Agregar un nuevo par clave-valor
+mi_diccionario["ciudad"] = "Madrid"
+print(mi_diccionario)  # Salida: {'nombre': 'Alice', 'edad': 26, 'ocupación': 'ingeniera', 'ciudad': 'Madrid'}
+
+
+
